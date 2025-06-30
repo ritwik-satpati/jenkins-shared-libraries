@@ -1,5 +1,5 @@
-def call(String OldPort, String NewPort, String ProjectName, String ImageTag){
-  echo "--- This is Deploying the Image Code using Docker : Start ---"
+def call(){
+  echo "--- This is Deploying the Image Code using Docker Compose : Start ---"
   sh "docker compose up -d"
-  echo "--- This is Deploying the Image Code using Docker : Complete ---"
+  echo "--- This is Deploying the Image Code using Docker Compose : Complete ---"
 }
